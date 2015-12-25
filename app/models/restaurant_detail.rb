@@ -6,7 +6,7 @@ class RestaurantDetail < ActiveRecord::Base
         @s=RestaurantDetail.where(item_name:item)
      
         	
-        	@s.where('price=?',3)
+        	@s.where('price=?',@item)
 
 	
 	end
