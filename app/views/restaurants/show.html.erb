@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Item:</strong>
+  <%= @restaurant.item_id %>
+</p>
+
+<p>
+  <strong>Item name:</strong>
+  <%= @restaurant.item_name %>
+</p>
+
+<p>
+  <strong>Restaurant:</strong>
+  <%= @restaurant.restaurant_id %>
+</p>
+
+<p>
+  <strong>Combo:</strong>
+  <%= @restaurant.combo %>
+</p>
+
+<p>
+  <strong>Combo price:</strong>
+  <%= @restaurant.combo_price %>
+</p>
+
+<%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
+<%= link_to 'Back', restaurants_path %>

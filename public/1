@@ -1,0 +1,8 @@
+restaurant_id,item_name,price
+1,burger,5
+1,pizza,12
+1,sandwhcih,123
+1,burger+pizza,15
+2,burger,3
+2,pizza,10
+2,burger+sandwhcih,125
